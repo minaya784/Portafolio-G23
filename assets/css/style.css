@@ -209,11 +209,11 @@ body{
         text-align: center;
         line-height: 24px;
         opacity: 0.6;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     /* Servicios */
     .services__container{
-        margin-top:50px ;
+        margin-top:90px ;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -245,6 +245,7 @@ body{
     border-radius: 5px;
     gap: 20px;
     position: relative;
+    margin-bottom: 20px;
     }
     .services__conocimientos img:nth-child(1){
         width: 220px;
@@ -343,36 +344,62 @@ body{
     .portafolio__container{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 30px 0px ;
+        align-items: center; 
+
     }
     .portafolio__container h4{
         display: flex;
-        justify-content: center;
+        text-align: center;
         color: var(--green);
         font-size: 20px;
         margin: 20px 0px;
-    }  
+    } 
     .portafolio__container__img{
         display: flex;
-        max-width: 500px;
-        margin-right: 10px;
-        overflow-x: scroll;
+        flex-wrap: wrap; 
+        justify-content: center;
         gap: 15px;
-    }
-    .portafolio__container__img::-webkit-scrollbar{
+    } 
+    
+    /* .portafolio__container__img::-webkit-scrollbar{
         scroll-snap-type: none;
-    }
+        
+    } */
+   
     .imagen{
-        width: 535px;
-        height: 420px;
+        width: 300px;
+        height: 200px;
         display: flex;
-        margin-right: 10px;
-        flex-direction: column;
-        align-items: center;
-        background-color: var(--light);
-        /* max-width: 400px; */
+        background-image: url(../img/poke.jpg);
+        background-size: cover;
+        border-radius: 5px;
     }
+    .imagen1{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        background-image: url(../img/morti.jpg);
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .imagen2{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        background-image: url(../img/weather.jpg);
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .imagen3{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        background-image: url(../img/phrase.jpg);
+        background-size: cover;
+        border-radius: 5px;
+    }
+ 
+    
    
     /* Contacto */
     .contacto__container{
@@ -469,7 +496,10 @@ body{
     .nav__bar {
         padding: 0;
     }
-   
+    .about__me p{
+       
+        margin-bottom: 0px;
+    }
 }  
 @media (min-width: 992px){
     .header__container{
