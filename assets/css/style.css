@@ -359,12 +359,7 @@ body{
         justify-content: center;
         gap: 15px;
     } 
-    
-    /* .portafolio__container__img::-webkit-scrollbar{
-        scroll-snap-type: none;
-        
-    } */
-    
+       
    
     .imagen{
         width: 300px;
@@ -401,8 +396,6 @@ body{
        
     }
  
-    
-   
     /* Contacto */
     .contacto__container{
         margin-top:50px ;
